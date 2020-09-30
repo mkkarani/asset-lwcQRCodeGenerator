@@ -1,0 +1,7 @@
+<template>
+    <lightning-card>
+        <lightning-input type="text" label="Enter some text" name="qrCodeString" value={qrCodeString} onchange={handleInputChange}></lightning-input>
+            <div class="qrcode2" id="qrcode2" style="height:200px;width:200px"></div>
+            <lightning-button variant="brand" label="Generate QR Code" title="Generate QR Code" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    </lightning-card>
+</template>
